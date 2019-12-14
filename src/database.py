@@ -1,4 +1,4 @@
-from .models import db
+from src.models import db
 
 def get_all(model):
     data = model.query.all()
